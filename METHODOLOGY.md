@@ -52,5 +52,5 @@ Eight leaflet sentences containing case-study terms were translated with DeepL a
 
 - `termbase/termbase.xlsx` is the master file.
 - `termbase/termbase.csv` is exported from it (UTF-8 with BOM).
-- `termbase/termbase.tbx` was generated from the CSV with a script and validated against TBX-Basic (TBX-Core structure valid; TBX-Basic Schematron rules: 782 checks, 0 failures). It was not exported from MultiTerm.
+- `termbase/termbase.tbx` was generated from the CSV with a helper script ([scripts/csv_to_tbx.py](scripts/csv_to_tbx.py), written with AI assistance) and validated against TBX-Basic (TBX-Core structure valid; TBX-Basic Schematron rules: 782 checks, 0 failures). It was not exported from MultiTerm.
 - `termbase/termbase.ttb` is a Trados 2026 termbase made with Glossary Converter.

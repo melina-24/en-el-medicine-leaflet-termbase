@@ -16,6 +16,7 @@ A bilingual English–Greek termbase built from EU package leaflets for centrall
 | `review/ai-suggestions-review.md` | A terminology review of DeepL and ChatGPT output, checked against the termbase |
 | `review/raw-outputs.md` | The unedited DeepL and ChatGPT outputs |
 | `review/case-studies.md` | 4 difficult cases explained in depth |
+| `scripts/csv_to_tbx.py` | Helper script (written with AI assistance) that generates the TBX from the CSV |
 | `METHODOLOGY.md` | How the termbase was built: sources, entry fields, definition rules, IATE grounding, statuses |
 
 ## Sources
