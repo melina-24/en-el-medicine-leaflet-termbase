@@ -35,7 +35,7 @@
 </conceptEntry>
 <conceptEntry id="T002">
 <descrip type="subjectField">anatomy/physiology</descrip>
-<note>definition_source: own, based on NLM MeSH</note>
+<note>definition_source: own, based on NLM MeSH D015951</note>
 <note>iate_id: none</note>
 <note>source_doc: Eliquis PL, s.1</note>
 <note>register: technical</note>
@@ -94,7 +94,7 @@
 <descrip type="subjectField">disease</descrip>
 <note>definition_source: EN own, based on term note IATE 1685705/ EL own, based on the EN term note provided by IATE</note>
 <note>iate_id: 1685705</note>
-<note>iate_reliability: EN 3/ EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Eliquis PL, s.1</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
@@ -123,7 +123,7 @@
 <descrip type="subjectField">disease</descrip>
 <note>definition_source: EN IATE 1289336/ EL own, based on the EN definition by IATE</note>
 <note>iate_id: 1289336</note>
-<note>iate_reliability: EN 3/ EL 4</note>
+<note>iate_reliability: EN 3 / EL 4</note>
 <note>source_doc: Eliquis PL, s.1</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
@@ -149,13 +149,13 @@
 </conceptEntry>
 <conceptEntry id="T006">
 <descrip type="subjectField">disease</descrip>
-<note>definition_source: EN own, based on IATE 1520801 definition used for' ''ulcer''/ EL no IATE definition , own, based on EN 1659247 IATE definition of 'peptic ulcer'</note>
+<note>definition_source: EN own, based on IATE 1520801 definition used for 'ulcer'/ EL no IATE definition, own, based on EN 1659247 IATE definition of 'peptic ulcer'</note>
 <note>iate_id: 1547325</note>
 <note>iate_reliability: EN 3 / EL 4</note>
 <note>source_doc: Eliquis PL, s.2</note>
 <note>register: mixed</note>
 <note>status: rejected</note>
-<note>mismatch/ EN ''ulcer of the stomach'' lay use of term , instead of gastric ulcer as found in IATE 1547325/ EL 'πεπτικό έλκος' is a broader term that includes gastric ulcer (ulcer of the stomach) , esophagus or duodenum; related: IATE 1520801 (ulcer, broader);  actual definition of 'πεπτικό έλκος' : έλκωση του βλεννογόνου του οισοφάγου, του στομάχου ή του δωδεκαδακτύλου, που προκαλείται από τη δράση του όξινου γαστρικού υγρού</note>
+<note>mismatch/ EN 'ulcer of the stomach' lay use of term, instead of gastric ulcer as found in IATE 1547325/ EL 'πεπτικό έλκος' is a broader term that includes gastric ulcer (ulcer of the stomach), esophagus or duodenum; related: IATE 1520801 (ulcer, broader); actual definition of 'πεπτικό έλκος': έλκωση του βλεννογόνου του οισοφάγου, του στομάχου ή του δωδεκαδακτύλου, που προκαλείται από τη δράση του όξινου γαστρικού υγρού</note>
 <langSec xml:lang="en">
 <descrip type="definition">break in the lining of the stomach</descrip>
 <termSec>
@@ -183,7 +183,7 @@
 <note>source_doc: Eliquis PL, s.2</note>
 <note>register: mixed</note>
 <note>status: needs expert check</note>
-<note>MeSH “Cerebral Hemorrhage” Unique ID  D002543: limited to the cerebral hemispheres, so narrower than the leaflet’s “bleeding in the brain”/ same applies to EL 'εγκεφαλική αιμορραγία' which is a broad term /MeSH unique ID D020201 “Brain Hemorrhage, Traumatic”: limited to injury, so also narrower list items are quoted with their lead-in</note>
+<note>MeSH “Cerebral Hemorrhage” Unique ID D002543: limited to the cerebral hemispheres, so narrower than the leaflet’s “bleeding in the brain”/ same applies to EL 'εγκεφαλική αιμορραγία' which is a broad term /MeSH unique ID D020201 “Brain Hemorrhage, Traumatic”: limited to injury, so also narrower list items are quoted with their lead-in</note>
 <langSec xml:lang="en">
 <descrip type="definition">haemorrhage in the brain</descrip>
 <termSec>
@@ -211,7 +211,7 @@
 <note>source_doc: Eliquis PL, s.2</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
-<note>EN/EL ΙΑΤΕ 1684688 without a definition provided for 'heart valve' 'βαλβίδα'/ no entry for 'prosthetic heart valve' or προσθετική βαλβίδα καρδιάς ; EN/EL 3 for ''heart valve'' and ''βαλβίδα'' ; list items are quoted with their lead-in</note>
+<note>EN/EL IATE 1684688 without a definition provided for 'heart valve' 'βαλβίδα'/ no entry for 'prosthetic heart valve' or προσθετική βαλβίδα καρδιάς; EN/EL 3 for 'heart valve' and 'βαλβίδα'; list items are quoted with their lead-in</note>
 <langSec xml:lang="en">
 <descrip type="definition">device that substitutes for a heart valve</descrip>
 <termSec>
@@ -234,7 +234,7 @@
 </conceptEntry>
 <conceptEntry id="T009">
 <descrip type="subjectField">pharmacology</descrip>
-<note>definition_source: own, based on Eliquis PL, s.3/ IATE 1323258 ('antagonist') / MeSH Unique ID D014859('warfarin' / PMC3901071 (NIH PubMed Central)</note>
+<note>definition_source: own, based on Eliquis PL, s.3/ IATE 1323258 ('antagonist') / MeSH Unique ID D014859 ('warfarin') / PMC3901071 (NIH PubMed Central)</note>
 <note>iate_id: none</note>
 <note>source_doc: Eliquis PL, s.3</note>
 <note>register: technical</note>
@@ -292,11 +292,11 @@
 <descrip type="subjectField">dose form</descrip>
 <note>definition_source: own, based on MeSH D011208</note>
 <note>iate_id: 35531</note>
-<note>iate_reliability: EN/EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Bemrist PL, title</note>
 <note>register: technical</note>
 <note>status: approved</note>
-<note>no IATE definition provided ; part of the dose-form name 'inhalation powder, hard capsules'</note>
+<note>no IATE definition provided; part of the dose-form name 'inhalation powder, hard capsules'</note>
 <langSec xml:lang="en">
 <descrip type="definition">dose form consisting of solid particles intended to be breathed into the lungs</descrip>
 <termSec>
@@ -345,13 +345,13 @@
 </conceptEntry>
 <conceptEntry id="T013">
 <descrip type="subjectField">symptom</descrip>
-<note>definition_source: EL 1513058/ EN based on the official term 'dyspnoea'' and 'shortness of breath' in 1513058</note>
+<note>definition_source: EL 1513058/ EN based on the official term 'dyspnoea' and 'shortness of breath' in 1513058</note>
 <note>iate_id: 1513058</note>
-<note>iate_reliability: EN/EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Bemrist PL, s.1</note>
 <note>register: mixed</note>
 <note>status: needs expert check</note>
-<note>1513058 for EL 'δύσπνοια΄ ; register: EN uses an everyday word, EL a medical term (more formal)</note>
+<note>1513058 for EL 'δύσπνοια'; register: EN uses an everyday word, EL a medical term (more formal)</note>
 <langSec xml:lang="en">
 <descrip type="definition">difficult or laboured respiration</descrip>
 <termSec>
@@ -374,11 +374,11 @@
 <descrip type="subjectField">packaging</descrip>
 <note>definition_source: EN IATE 1733146/ EL based on EN 1733146 for 'πλακίδιο με κυψελίδες' which is the preferred term</note>
 <note>iate_id: 1733146</note>
-<note>iate_reliability: EN/ EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Bemrist PL, s.3</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
-<note>MISMATCH / IATE 35266 EN 'blister' and EL ΄Κυψέλη΄ respectively for a different domain (trade and marketing)/pharmaceutical industry IATE 1733146 EN 'blister' , EL 'πλακίδιο με κυψελίδες' /in the specific leaflet for the EL term the word used belongs to a different domain/ related: backing / προστατευτική επένδυση (of the blister), same sentence</note>
+<note>MISMATCH / IATE 35266 EN 'blister' and EL 'Κυψέλη' respectively for a different domain (trade and marketing)/pharmaceutical industry IATE 1733146 EN 'blister', EL 'πλακίδιο με κυψελίδες' /in the specific leaflet for the EL term the word used belongs to a different domain/ related: backing / προστατευτική επένδυση (of the blister), same sentence</note>
 <langSec xml:lang="en">
 <descrip type="definition">card for unit-dose medication packaging which has semi-rigid thermoformed or cold-formed cavities that are filled with pills (i.e. tablets, capsules, etc.) and secured by a strong, heat-sealable backing material</descrip>
 <termSec>
@@ -404,7 +404,7 @@
 <note>source_doc: Bemrist PL, s.4</note>
 <note>register: mixed</note>
 <note>status: needs expert check</note>
-<note>register: EN uses an everyday word, EL a medical term (more formal); EN 'hives' is plural-only and names the condition (urticaria), EL πομφός is a single wheal, possibly not the same concept (case study) / no entries on IATE site ; list items are quoted with their lead-in; second occurrence in M-M-RvaxPro PL, s.4: 'Hives' / 'Κνησμός' - MISMATCH (case study): κνησμός means itching; hives (urticaria) would be κνίδωση</note>
+<note>register: EN uses an everyday word, EL a medical term (more formal); EN 'hives' is plural-only and names the condition (urticaria), EL πομφός is a single wheal, possibly not the same concept (case study) / no entries on IATE site; list items are quoted with their lead-in; second occurrence in M-M-RvaxPro PL, s.4: 'Hives' / 'Κνησμός' - MISMATCH (case study): κνησμός means itching; hives (urticaria) would be κνίδωση</note>
 <langSec xml:lang="en">
 <descrip type="definition">vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability</descrip>
 <termSec>
@@ -427,7 +427,7 @@
 <descrip type="subjectField">disease</descrip>
 <note>definition_source: EN IATE 1685315 / EL own, based on EN 1685315</note>
 <note>iate_id: 1685315</note>
-<note>iate_reliability: EN/ EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Bemrist PL, s.4</note>
 <note>register: technical</note>
 <note>status: approved</note>
@@ -452,12 +452,12 @@
 </conceptEntry>
 <conceptEntry id="T017">
 <descrip type="subjectField">symptom</descrip>
-<note>definition_source: own, based on IATE 1502879 for 'attack' and 'παρόξυνση΄</note>
+<note>definition_source: own, based on IATE 1502879 for 'attack' and 'παρόξυνση'</note>
 <note>iate_id: none</note>
 <note>source_doc: Bemrist PL, s.4</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
-<note>related: IATE 1502879 (attack / παροξυσμός, προσβολή, κρίση; medical science; broader; reliability EN/EL 3 for 'attack' and 'παρόξυνση΄ ; case study : EN 'attack of asthma' and 'συμβάν άσθματος' in Bemrist PL, s.1 : 'κρίση άσθματος' instead? / list items are quoted with their lead-in</note>
+<note>related: IATE 1502879 (attack / παροξυσμός, προσβολή, κρίση; medical science; broader; reliability EN/EL 3 for 'attack' and 'παρόξυνση'); case study: EN 'attack of asthma' and 'συμβάν άσθματος' in Bemrist PL, s.1: 'κρίση άσθματος' instead? / list items are quoted with their lead-in</note>
 <langSec xml:lang="en">
 <descrip type="definition">sudden or progressive worsening of asthma related symptoms</descrip>
 <termSec>
@@ -482,7 +482,7 @@
 <descrip type="subjectField">symptom</descrip>
 <note>definition_source: IATE 261853 / for EL own, based on 261853</note>
 <note>iate_id: 261853</note>
-<note>iate_reliability: EN/EL 3</note>
+<note>iate_reliability: EN 3 / EL 3</note>
 <note>source_doc: Bemrist PL, s.4</note>
 <note>register: technical</note>
 <note>status: needs expert check</note>
@@ -535,7 +535,7 @@
 <descrip type="subjectField">pharmacology</descrip>
 <note>definition_source: IATE 3509191</note>
 <note>iate_id: 3509191</note>
-<note>iate_reliability: EN 3/ EL 4</note>
+<note>iate_reliability: EN 3 / EL 4</note>
 <note>source_doc: M-M-RvaxPro PL, title</note>
 <note>register: technical</note>
 <note>status: approved</note>
@@ -562,7 +562,7 @@
 <descrip type="subjectField">symptom</descrip>
 <note>definition_source: IATE 1084686</note>
 <note>iate_id: 1084686</note>
-<note>iate_reliability: EN 3/ EL 4</note>
+<note>iate_reliability: EN 3 / EL 4</note>
 <note>source_doc: M-M-RvaxPro PL, s.2</note>
 <note>register: technical</note>
 <note>status: approved</note>
@@ -646,7 +646,7 @@
 <note>source_doc: M-M-RvaxPro PL, s.4</note>
 <note>register: mixed</note>
 <note>status: rejected</note>
-<note>MISMATCH (case study): 'κνησμός' means 'itching'; 'stinging' would be 'επίπονο τσούξιμο'. In the same item 'hives' is rendered εξανθήματα (rashes). 'Hives' were described as 'πομφοί' in another example.;   Table rows are quoted with their frequency cell as lead-in    / actual definition of 'κνησμός'  MeSH D011537</note>
+<note>MISMATCH (case study): 'κνησμός' means 'itching'; 'stinging' would be 'επίπονο τσούξιμο'. In the same item 'hives' is rendered εξανθήματα (rashes). 'Hives' were described as 'πομφοί' in another example.; Table rows are quoted with their frequency cell as lead-in / actual definition of 'κνησμός' MeSH D011537</note>
 <langSec xml:lang="en">
 <descrip type="definition">painful prickling sensation in the skin</descrip>
 <termSec>

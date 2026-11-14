@@ -116,9 +116,9 @@ This is not an isolated case among the 10 terms reviewed in [ai-suggestions-revi
 
 | ID | Term (EN) | IATE ID | Definition source (termbase) |
 |---|---|---|---|
-| T002 | Factor Xa | none | own, based on NLM MeSH |
+| T002 | Factor Xa | none | own, based on NLM MeSH D015951 |
 | T005 | stroke | 1289336 | EN IATE 1289336/ EL own, based on the EN definition by IATE |
-| T006 | ulcer of the stomach | 1547325 | EN own, based on IATE 1520801 definition used for' ''ulcer''/ EL no IATE definition , own, based on EN 1659247 IATE definition of 'peptic ulcer' |
+| T006 | ulcer of the stomach | 1547325 | EN own, based on IATE 1520801 definition used for 'ulcer'/ EL no IATE definition, own, based on EN 1659247 IATE definition of 'peptic ulcer' |
 | T007 | bleeding in the brain | none | own, based on NIH NLM MeSH for 'Cerebral Hemorrhage' and 'Brain Hemorrhage, Traumatic' |
 | T015 | hives | none | based on MeSH definition of 'urticaria' |
 | T018 | sign | 261853 | IATE 261853 / for EL own, based on 261853 |
