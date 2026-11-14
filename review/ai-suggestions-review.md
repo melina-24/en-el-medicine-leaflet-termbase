@@ -54,47 +54,47 @@ Verdicts:
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T005 | stroke | αγγειακό εγκεφαλικό επεισόδιο | Termbase EL accepted | εγκεφαλικό επεισόδιο | amend | εγκεφαλικό επεισόδιο | amend | IATE 1289336 official scientific term "αγγειακό εγκεφαλικό επεισόδιο" |
+| T005 | stroke | αγγειακό εγκεφαλικό επεισόδιο | Termbase EL accepted | εγκεφαλικό επεισόδιο | amend | εγκεφαλικό επεισόδιο | amend | The official scientific term "αγγειακό εγκεφαλικό επεισόδιο" can be found in IATE 1289336. |
 
 ### S3
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T006 | ulcer of the stomach | πεπτικό έλκος | γαστρικό έλκος | έλκος στο στομάχι | approve | έλκος στο στομάχι | approve | Agrees with termbase EN (same concept). Changing the register isn't necessary as termbase EN also uses an informal noun phrase. However, termbase EL provides a broad term. Therefore, it is not accurate. "πεπτικό έλκος" includes "γαστρικό έλκος". So, "πεπτικό έλκος" is a broader category. "gastric ulcer" IATE ID 1547325. "peptic ulcer" IATE ID 1659247. |
+| T006 | ulcer of the stomach | πεπτικό έλκος | γαστρικό έλκος | έλκος στο στομάχι | approve | έλκος στο στομάχι | approve | Agrees with termbase EN (same concept). Changing the register is not necessary, as termbase EN also uses an informal noun phrase. However, termbase EL provides a broader term and is therefore not accurate: "πεπτικό έλκος" ("peptic ulcer", IATE 1659247) includes "γαστρικό έλκος" ("gastric ulcer", IATE 1547325). |
 | T007 | bleeding in the brain | εγκεφαλική αιμορραγία | Termbase EL accepted | αιμορραγία στον εγκέφαλο | approve | αιμορραγία στον εγκέφαλό σας | amend | ChatGPT: the word "σας" is unnecessary, yet acceptable since it matches the register (package leaflet, addressed to patients). |
 
 ### S4
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T015 | hives | πομφός | κνίδωση (preferred); πομφός (acceptable) | κνίδωση | approve | κνίδωση | approve | "hives" can be used as an informal term for the condition "urticaria" (using a visible sign of the condition to describe it). If that is the case, it directly translates to "κνίδωση". If "hives" refers to lots of separate wheals, then "πομφός" is acceptable as it is the Greek equivalent (the plural form of "πομφός" is used in the Greek leaflet). Both can be defensible, but a specialist should confirm. |
-| T019 | itching | κνησμός | Termbase EL accepted | κνησμός | approve | κνησμός | approve | The termbase status (termbase.xlsx) is "needs expert check" not because the translation is wrong, but because there is a shift in register: "itching" is an everyday word, "κνησμός" is a medical term. The Greek leaflet renders "itching" in three ways: "skin itching" / "κνησμός στο δέρμα" (s.4); "itching and hives" / "φαγούρα και πομφούς" (s.4, this sentence), where the register didn't change; "itching and hives" / "κνησμό και πομφούς" (s.2). So we have an inconsistency in terms of following the right register. |
-| T018 | sign | σημείο | σύμπτωμα or ένδειξη | συμπτώματα | approve | σημεία | reject | IATE 261853 defines "sign" as "sign that is evident to a doctor examining a patient". In this case, the leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe some symptoms. "ένδειξη" is equivalent to "σύμπτωμα" when used in this context. |
+| T015 | hives | πομφός | κνίδωση (preferred); πομφός (acceptable) | κνίδωση | approve | κνίδωση | approve | "hives" can be used as an informal term for the condition "urticaria" (using a visible sign of the condition to describe it). If that is the case, it corresponds to "κνίδωση". If "hives" refers to several separate wheals, then "πομφός" is acceptable as it is the Greek equivalent (the plural form of "πομφός" is used in the Greek leaflet). Both are defensible, but a specialist should confirm. |
+| T019 | itching | κνησμός | Termbase EL accepted | κνησμός | approve | κνησμός | approve | The termbase status (termbase.xlsx) is "needs expert check" not because the translation is wrong, but because there is a shift in register: "itching" is an everyday word, "κνησμός" is a medical term. The Greek leaflet renders "itching" in three ways: "skin itching" / "κνησμός στο δέρμα" (s.4); "itching and hives" / "φαγούρα και πομφούς" (s.4, this sentence), where the register did not change; "itching and hives" / "κνησμό και πομφούς" (s.2). The leaflet is inconsistent in register. |
+| T018 | sign | σημείο | σύμπτωμα or ένδειξη | συμπτώματα | approve | σημεία | reject | IATE 261853 defines "sign" as "sign that is evident to a doctor examining a patient". The leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe symptoms. "ένδειξη" is equivalent to "σύμπτωμα" when used in this context. |
 
 ### S5
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T018 | sign | σημείο | σύμπτωμα or ένδειξη | συμπτώματα | approve | ενδείξεις | approve | IATE 261853 defines "sign" as "sign that is evident to a doctor examining a patient". In this case, the leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe some symptoms. "ένδειξη" is equivalent to "σύμπτωμα" when used in this context. |
+| T018 | sign | σημείο | σύμπτωμα or ένδειξη | συμπτώματα | approve | ενδείξεις | approve | IATE 261853 defines "sign" as "sign that is evident to a doctor examining a patient". The leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe symptoms. "ένδειξη" is equivalent to "σύμπτωμα" when used in this context. |
 
 ### S6
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T022 | tingling | φαγούρα | μυρμήγκιασμα | μυρμήγκιασμα | approve | μυρμήγκιασμα | approve | "tingling" belongs under "paresthesia" (MeSH D010292); "itching" belongs under "pruritus" (MeSH D011537). So they are in two different branches and do not refer to the same sensation. "tingling" is an everyday word with no entry in IATE; its meaning is easily found in a dictionary (Merriam-Webster). |
+| T022 | tingling | φαγούρα | μυρμήγκιασμα | μυρμήγκιασμα | approve | μυρμήγκιασμα | approve | "tingling" belongs under "paresthesia" (MeSH D010292); "itching" belongs under "pruritus" (MeSH D011537). Therefore, they are in two different branches and do not refer to the same sensation. "tingling" is an everyday word with no entry in IATE; its meaning is recorded in general dictionaries (Merriam-Webster). |
 
 ### S7
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
 | T022 | tingling | φαγούρα | μυρμήγκιασμα | μυρμήγκιασμα | approve | μυρμήγκιασμα | approve | Same as S6. |
-| T023 | eye nerve disturbance | διαταραχή του οπτικού νεύρου | Termbase EL accepted | διαταραχές του οπτικού νεύρου | approve | διαταραχές του οπτικού νεύρου | approve | The termbase status (termbase.xlsx) is "needs expert check" for two reasons. First, IATE only has a definition for "optic nerve" (IATE 1542580), in English, and the entry has no Greek term; there is no entry for "eye nerve disturbance" or "optic nerve disturbance", or the respective Greek form. Second, a register shift is observed: termbase EN uses a lay phrase ("eye nerve"), whereas the Greek translation uses the medical term ("οπτικό νεύρο"). |
+| T023 | eye nerve disturbance | διαταραχή του οπτικού νεύρου | Termbase EL accepted | διαταραχές του οπτικού νεύρου | approve | διαταραχές του οπτικού νεύρου | approve | The termbase status (termbase.xlsx) is "needs expert check" for two reasons. First, IATE only has a definition for "optic nerve" (IATE 1542580), in English, and the entry has no Greek term; there is no entry for "eye nerve disturbance" or "optic nerve disturbance", or for a Greek equivalent. Second, a register shift is observed: termbase EN uses a lay phrase ("eye nerve"), whereas the Greek translation uses the medical term ("οπτικό νεύρο"). |
 
 ### S8
 
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
-| T024 | stinging | κνησμός | επίπονο τσούξιμο | τσιμπήματος | amend | τσουξίματος | amend | The leaflet's "κνησμός" means "itching", which is a different concept: "stinging" is a painful prickling sensation in the skin, whereas "itching" isn't necessarily painful. Both tools avoid this error, but each gives only part of the definition ("επίπονο αίσθημα τσιμπήματος και τσουξίματος στο δέρμα"): DeepL "τσίμπημα", ChatGPT "τσούξιμο", and neither includes "επίπονο". |
+| T024 | stinging | κνησμός | επίπονο τσούξιμο | τσιμπήματος | amend | τσουξίματος | amend | The leaflet's "κνησμός" means "itching", which is a different concept: "stinging" is a painful prickling sensation in the skin, whereas "itching" is not necessarily painful. Both tools avoid this error, but each gives only part of the definition ("επίπονο αίσθημα τσιμπήματος και τσουξίματος στο δέρμα"): DeepL "τσίμπημα", ChatGPT "τσούξιμο", and neither includes "επίπονο". |
 
 ## Patterns: errors a tool would make
 

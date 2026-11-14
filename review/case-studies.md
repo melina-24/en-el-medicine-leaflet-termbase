@@ -11,7 +11,7 @@
 
 ### Problem
 
-Pain is a symptom (felt by the patient), not a sign (observed by a doctor), yet EN says "signs" and EL follows with "σημεία". The leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe some symptoms.
+Pain is a symptom (felt by the patient), not a sign (observed by a doctor), yet EN says "signs" and EL follows with "σημεία". The leaflet is addressed to patients, and a patient cannot diagnose themselves. A patient can only experience or observe symptoms.
 
 The same leaflet is not consistent: the EN word "sign" is rendered in three different ways ("σημείο", "σύμπτωμα" and the verb "υποδηλώνουν"), whether or not the thing described can be observed by a doctor:
 
@@ -46,7 +46,7 @@ The same leaflet is not consistent: the EN word "sign" is rendered in three diff
 
 - **hives (T015):** "hives" can be used as an informal term for the condition "urticaria" (using a visible sign of the condition to describe it). Bemrist renders it as "πομφούς"; M-M-RvaxPro renders it as "κνησμός" (itching) in one item and as "εξανθήματα" (rashes) in another.
 - **tingling (T022):** "φαγούρα" means itching (everyday word); tingling would be "μυρμήγκιασμα". The same error appears in the next item: "weakness, tingling, or numbness" / "αδυναμία, φαγούρα ή μούδιασμα".
-- **stinging (T024):** "κνησμός" means "itching", which is a different concept: "stinging" is a painful prickling sensation in the skin, whereas "itching" isn't necessarily painful.
+- **stinging (T024):** "κνησμός" means "itching", which is a different concept: "stinging" is a painful prickling sensation in the skin, whereas "itching" is not necessarily painful.
 
 In M-M-RvaxPro, three different EN terms are rendered with Greek words for itching.
 
@@ -54,7 +54,7 @@ In M-M-RvaxPro, "Hives" (Uncommon) is rendered as "Κνησμός", while the se
 
 ### Evidence
 
-- "tingling" belongs under "paresthesia" (MeSH D010292); "itching" belongs under "pruritus" (MeSH D011537). So they are in two different branches and do not refer to the same sensation. "tingling" is an everyday word with no entry in IATE; its meaning is easily found in a dictionary (Merriam-Webster).
+- "tingling" belongs under "paresthesia" (MeSH D010292); "itching" belongs under "pruritus" (MeSH D011537). Therefore, they are in two different branches and do not refer to the same sensation. "tingling" is an everyday word with no entry in IATE; its meaning is recorded in general dictionaries (Merriam-Webster).
 - "hives": definition based on the MeSH definition of "urticaria"; no IATE entry.
 - "stinging": definition based on Merriam-Webster; no IATE entry.
 - AI review (S4, S6, S7, S8): neither DeepL nor ChatGPT repeated these errors.
@@ -62,7 +62,7 @@ In M-M-RvaxPro, "Hives" (Uncommon) is rendered as "Κνησμός", while the se
 
 ### Decision
 
-- **hives (T015):** recommended term "κνίδωση" (preferred); "πομφός" (acceptable). Both can be defensible, but a specialist should confirm. Leaflet term in the termbase ("πομφός"): needs expert check.
+- **hives (T015):** recommended term "κνίδωση" (preferred); "πομφός" (acceptable). Both are defensible, but a specialist should confirm. Leaflet term in the termbase ("πομφός"): needs expert check.
 - **tingling (T022):** recommended term "μυρμήγκιασμα". Leaflet term in the termbase ("φαγούρα"): rejected.
 - **stinging (T024):** recommended term "επίπονο τσούξιμο". Leaflet term in the termbase ("κνησμός"): rejected.
 
