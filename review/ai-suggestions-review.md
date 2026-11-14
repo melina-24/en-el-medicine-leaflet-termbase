@@ -88,7 +88,7 @@ Verdicts:
 | ID | Termbase EN | Termbase EL | Reference EL | DeepL | DeepL verdict | ChatGPT | ChatGPT verdict | Reason |
 |---|---|---|---|---|---|---|---|---|
 | T022 | tingling | φαγούρα | μυρμήγκιασμα | μυρμήγκιασμα | approve | μυρμήγκιασμα | approve | Same as S6. |
-| T023 | eye nerve disturbance | διαταραχή του οπτικού νεύρου | Termbase EL accepted | διαταραχές του οπτικού νεύρου | approve | διαταραχές του οπτικού νεύρου | approve | The termbase status (termbase.xlsx) is "needs expert check" for two reasons. First, IATE only has a definition for "optic nerve" (IATE 1542580); there is no entry for "eye nerve disturbance" or "optic nerve disturbance", or the respective Greek form. Second, a register shift is observed: termbase EN uses a lay phrase ("eye nerve"), whereas the Greek translation uses the medical term ("οπτικό νεύρο"). |
+| T023 | eye nerve disturbance | διαταραχή του οπτικού νεύρου | Termbase EL accepted | διαταραχές του οπτικού νεύρου | approve | διαταραχές του οπτικού νεύρου | approve | The termbase status (termbase.xlsx) is "needs expert check" for two reasons. First, IATE only has a definition for "optic nerve" (IATE 1542580), in English, and the entry has no Greek term; there is no entry for "eye nerve disturbance" or "optic nerve disturbance", or the respective Greek form. Second, a register shift is observed: termbase EN uses a lay phrase ("eye nerve"), whereas the Greek translation uses the medical term ("οπτικό νεύρο"). |
 
 ### S8
 
