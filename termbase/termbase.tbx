@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<tbx type="TBX-Basic" style="dca" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+<tbxHeader><fileDesc><sourceDesc><p>EN-EL Medicine Leaflet Termbase (portfolio project). Not for clinical use.</p></sourceDesc></fileDesc></tbxHeader>
+<text><body>
+<conceptEntry id="T001">
+<descrip type="subjectField">pharmacology</descrip>
+<note>definition_source: IATE 35093</note>
+<note>iate_id: 35093</note>
+<note>iate_reliability: EN 3 / EL 4</note>
+<note>source_doc: Eliquis PL, s.1</note>
+<note>register: technical</note>
+<note>status: approved</note>
+<note>rejected synonym: active ingredient</note>
+<note>synonym deprecated (IATE 35093)</note>
+<langSec xml:lang="en">
+<descrip type="definition">substance responsible for the pharmacological activity of a medicinal product</descrip>
+<termSec>
+<term>active substance</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Eliquis contains the active substance apixaban and belongs to a group of medicines called anticoagulants.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">συστατικό ενός φαρμάκου που του προσδίδει τη θεραπευτική του αποτελεσματικότητα</descrip>
+<termSec>
+<term>δραστική ουσία</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Το Eliquis περιέχει τη δραστική ουσία apixaban και ανήκει σε μία ομάδα φαρμάκων που ονομάζονται αντιπηκτικά.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T002">
+<descrip type="subjectField">anatomy/physiology</descrip>
+<note>definition_source: own, based on NLM MeSH</note>
+<note>iate_id: none</note>
+<note>source_doc: Eliquis PL, s.1</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>no IATE entry for 'Factor Xa'/ 'Factor X' is a different entry (with no definition)</note>
+<langSec xml:lang="en">
+<descrip type="definition">enzyme that is the activated form of Factor X and participates in blood coagulation by catalysing the conversion of prothrombin to thrombin</descrip>
+<termSec>
+<term>Factor Xa</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">This medicine helps to prevent blood clots from forming by blocking Factor Xa, which is an important component of blood clotting.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">ένζυμο που αποτελεί την ενεργοποιημένη μορφή του Παράγοντα X και συμμετέχει στην πήξη του αίματος επιταχύνοντας τη μετατροπή της προθρομβίνης σε θρομβίνη</descrip>
+<termSec>
+<term>Παράγοντας Xa</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Αυτό το φάρμακο βοηθάει στην πρόληψη του σχηματισμού θρόμβων στο αίμα, εμποδίζοντας τον Παράγοντα Xa ο οποίος είναι ένα σημαντικό συστατικό της πήξης του αίματος.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T003">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN IATE 1685612/ EL own, based on the EN definition provided by IATE</note>
+<note>iate_id: 1685612</note>
+<note>iate_reliability: EN 3 / EL 3</note>
+<note>source_doc: Eliquis PL, s.1</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>abbrev. DVT(en), ΕΦΘ(el) / EL definition wasn't provided by IATE</note>
+<langSec xml:lang="en">
+<descrip type="definition">formation of a thrombus in the deep veins of the leg</descrip>
+<termSec>
+<term>deep vein thrombosis</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Eliquis is used in adults: - to prevent blood clots (deep vein thrombosis [DVT]) from forming after hip or knee replacement operations.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">σχηματισμός θρόμβου αίματος σε βαθιά φλέβα των ποδιών</descrip>
+<termSec>
+<term>εν τω βάθει φλεβική θρόμβωση</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Το Eliquis χρησιμοποιείται σε ενήλικες: - για την πρόληψη σχηματισμού θρόμβων (εν τω βάθει φλεβική θρόμβωση [ΕΦΘ]) μετά από επεμβάσεις αντικατάστασης ισχίου ή γόνατος.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T004">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN own, based on term note IATE 1685705/ EL own, based on the EN term note provided by IATE</note>
+<note>iate_id: 1685705</note>
+<note>iate_reliability: EN 3/ EL 3</note>
+<note>source_doc: Eliquis PL, s.1</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>IATE definitions not provided / only term note for EN</note>
+<langSec xml:lang="en">
+<descrip type="definition">disease caused by a clot or other substance lodged in the blood vessels of the lungs blocking the blood flow</descrip>
+<termSec>
+<term>pulmonary embolism</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">This condition (pulmonary embolism) can be life-threatening and requires immediate medical attention.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">ασθένεια που προκαλείται από θρόμβο ή άλλη ουσία που εγκαθίσταται στα αιμοφόρα αγγεία των πνευμόνων παρεμποδίζοντας την κυκλοφορία του αίματος</descrip>
+<termSec>
+<term>πνευμονική εμβολή</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Αυτή η κατάσταση (πνευμονική εμβολή) μπορεί να είναι απειλητική για τη ζωή και απαιτεί άμεση ιατρική φροντίδα.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T005">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN IATE 1289336/ EL own, based on the EN definition by IATE</note>
+<note>iate_id: 1289336</note>
+<note>iate_reliability: EN 3/ EL 4</note>
+<note>source_doc: Eliquis PL, s.1</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>IATE EL definition not provided</note>
+<langSec xml:lang="en">
+<descrip type="definition">injury to the brain that occurs when blood flow to the brain is interrupted or after sudden bleeding in the brain</descrip>
+<termSec>
+<term>stroke</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">A stroke can be life-threatening and requires immediate medical attention.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">βλάβη στον εγκέφαλο που συμβαίνει όταν η κυκλοφορία του αίματος παρεμποδίζεται ή σαν αποτέλεσμα μιας ξαφνικής αιμορραγίας στον εγκέφαλο</descrip>
+<termSec>
+<term>αγγειακό εγκεφαλικό επεισόδιο</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Το αγγειακό εγκεφαλικό επεισόδιο μπορεί να είναι απειλητικό για τη ζωή και απαιτεί άμεση ιατρική φροντίδα.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T006">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN own, based on IATE 1520801 definition used for' ''ulcer''/ EL no IATE definition , own, based on EN 1659247 IATE definition of 'peptic ulcer'</note>
+<note>iate_id: 1547325</note>
+<note>iate_reliability: EN 3 / EL 4</note>
+<note>source_doc: Eliquis PL, s.2</note>
+<note>register: mixed</note>
+<note>status: rejected</note>
+<note>mismatch/ EN ''ulcer of the stomach'' lay use of term , instead of gastric ulcer as found in IATE 1547325/ EL 'πεπτικό έλκος' is a broader term that includes gastric ulcer (ulcer of the stomach) , esophagus or duodenum; related: IATE 1520801 (ulcer, broader);  actual definition of 'πεπτικό έλκος' : έλκωση του βλεννογόνου του οισοφάγου, του στομάχου ή του δωδεκαδακτύλου, που προκαλείται από τη δράση του όξινου γαστρικού υγρού</note>
+<langSec xml:lang="en">
+<descrip type="definition">break in the lining of the stomach</descrip>
+<termSec>
+<term>ulcer of the stomach</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Do not take Eliquis if you have a disease in an organ of the body that increases the risk of serious bleeding (such as an active or a recent ulcer of your stomach or bowel, recent bleeding in your brain).</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">έλκωση του βλεννογόνου του στομάχου</descrip>
+<termSec>
+<term>πεπτικό έλκος</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Μην πάρετε το Eliquis εάν έχετε κάποια νόσο σε ένα όργανο του σώματος που αυξάνει τον κίνδυνο σοβαρής αιμορραγίας (όπως ενεργό ή πρόσφατο πεπτικό έλκος ή έλκος του εντέρου σας, πρόσφατη εγκεφαλική αιμορραγία).</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T007">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: own, based on NIH NLM MeSH for 'Cerebral Hemorrhage' and 'Brain Hemorrhage, Traumatic'</note>
+<note>iate_id: none</note>
+<note>source_doc: Eliquis PL, s.2</note>
+<note>register: mixed</note>
+<note>status: needs expert check</note>
+<note>MeSH “Cerebral Hemorrhage” Unique ID  D002543: limited to the cerebral hemispheres, so narrower than the leaflet’s “bleeding in the brain”/ same applies to EL 'εγκεφαλική αιμορραγία' which is a broad term /MeSH unique ID D020201 “Brain Hemorrhage, Traumatic”: limited to injury, so also narrower list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">haemorrhage in the brain</descrip>
+<termSec>
+<term>bleeding in the brain</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Do not take Eliquis if you have a disease in an organ of the body that increases the risk of serious bleeding (such as an active or a recent ulcer of your stomach or bowel, recent bleeding in your brain).</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">διαφυγή αίματος μέσα στον ιστό του εγκεφάλου</descrip>
+<termSec>
+<term>εγκεφαλική αιμορραγία</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Μην πάρετε το Eliquis εάν έχετε κάποια νόσο σε ένα όργανο του σώματος που αυξάνει τον κίνδυνο σοβαρής αιμορραγίας (όπως ενεργό ή πρόσφατο πεπτικό έλκος ή έλκος του εντέρου σας, πρόσφατη εγκεφαλική αιμορραγία).</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T008">
+<descrip type="subjectField">clinical procedure</descrip>
+<note>definition_source: own based on Mesh - unique ID D006350</note>
+<note>iate_id: none</note>
+<note>source_doc: Eliquis PL, s.2</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>EN/EL ΙΑΤΕ 1684688 without a definition provided for 'heart valve' 'βαλβίδα'/ no entry for 'prosthetic heart valve' or προσθετική βαλβίδα καρδιάς ; EN/EL 3 for ''heart valve'' and ''βαλβίδα'' ; list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">device that substitutes for a heart valve</descrip>
+<termSec>
+<term>prosthetic heart valve</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Talk to your doctor, pharmacist or nurse before you take this medicine if you have any of the following: - if you have a prosthetic heart valve.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">συσκευή που αντικαθιστά τη βαλβίδα της καρδιάς</descrip>
+<termSec>
+<term>προσθετική βαλβίδα καρδιάς</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Απευθυνθείτε στον γιατρό, το φαρμακοποιό, ή το νοσοκόμο σας πριν πάρετε αυτό το φάρμακο εάν έχετε οτιδήποτε από τα παρακάτω: αν έχετε προσθετική βαλβίδα καρδιάς</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T009">
+<descrip type="subjectField">pharmacology</descrip>
+<note>definition_source: own, based on Eliquis PL, s.3/ IATE 1323258 ('antagonist') / MeSH Unique ID D014859('warfarin' / PMC3901071 (NIH PubMed Central)</note>
+<note>iate_id: none</note>
+<note>source_doc: Eliquis PL, s.3</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>IATE and MeSH had no entry for vitamin K antagonist (worked from the leaflet’s example (warfarin) up to the class, confirmed it in sources mentioned, and took the Greek from the parallel EMA text)</note>
+<langSec xml:lang="en">
+<descrip type="definition">anticoagulant that inhibits the action of vitamin K, which prevents the production of vitamin K-dependent clotting factors</descrip>
+<termSec>
+<term>vitamin K antagonist</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Changing from treatment with anticoagulant containing vitamin K antagonist (e.g., warfarin) to Eliquis</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">αντιπηκτικό που αναστέλλει τη δράση της βιταμίνης Κ, γεγονός που εμποδίζει την παραγωγή των παραγόντων πήξης που εξαρτώνται από τη βιταμίνη Κ</descrip>
+<termSec>
+<term>ανταγωνιστής της βιταμίνης Κ</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Αλλαγή από τη θεραπεία με αντιπηκτικό που περιέχει ανταγωνιστή της βιταμίνης Κ (π.χ., βαρφαρίνη) σε Eliquis</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T010">
+<descrip type="subjectField">clinical procedure</descrip>
+<note>definition_source: own, based on IATE 1245513 ('site of injection for tuberculin') / IATE 1529504 ('injection')</note>
+<note>iate_id: none</note>
+<note>source_doc: Eliquis PL, s.4</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">area of the body where a substance is inserted via a needle or syringe</descrip>
+<termSec>
+<term>injection site</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Uncommon side effects (may affect up to 1 in 100 people)Bleeding: - occurring after your operation including bruising and swelling, blood or liquid leaking from the surgical wound/incision (wound secretion) or injection site</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">σημείο έγχυσης στο σώμα μιας ουσίας μέσω βελόνας ή σύριγγας</descrip>
+<termSec>
+<term>θέση της ένεσης</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Όχι συχνές ανεπιθύμητες ενέργειες (μπορεί να επηρεάσουν έως 1 στα 100 άτομα) Αιμορραγία: - που προκύπτει μετά την επέμβασή σας, συμπεριλαμβανομένων των μωλώπων και του οιδήματος, διαρροή αίματος ή υγρού από το χειρουργικό τραύμα/τομή (έκκριση από τραύμα) ή τη θέση της ένεσης</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T011">
+<descrip type="subjectField">dose form</descrip>
+<note>definition_source: own, based on MeSH D011208</note>
+<note>iate_id: 35531</note>
+<note>iate_reliability: EN/EL 3</note>
+<note>source_doc: Bemrist PL, title</note>
+<note>register: technical</note>
+<note>status: approved</note>
+<note>no IATE definition provided ; part of the dose-form name 'inhalation powder, hard capsules'</note>
+<langSec xml:lang="en">
+<descrip type="definition">dose form consisting of solid particles intended to be breathed into the lungs</descrip>
+<termSec>
+<term>inhalation powder</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Bemrist Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">φαρμακοτεχνική μορφή στερεών σωματιδίων που προορίζεται για εισπνοή στους πνεύμονες</descrip>
+<termSec>
+<term>κόνις για εισπνοή</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Bemrist Breezhaler 125 μικρογραμμάρια/62,5 μικρογραμμάρια κόνις για εισπνοή, σκληρά καψάκια</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T012">
+<descrip type="subjectField">pharmacology</descrip>
+<note>definition_source: own, based on IATE 1500192 EN/EL 3 for terms 'bronchodilation' and 'βρογχοδιαστολή'</note>
+<note>iate_id: none</note>
+<note>source_doc: Bemrist PL, s.1</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>IATE entry for 'bronchodilation' 1500192; 1500192 reliability EN/EL 3 for terms 'bronchodilation' and 'βρογχοδιαστολή'</note>
+<langSec xml:lang="en">
+<descrip type="definition">medicine responsible for dilating the bronchi (airways)</descrip>
+<termSec>
+<term>bronchodilator</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Indacaterol belongs to a group of medicines called bronchodilators.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">φάρμακο υπεύθυνο για τη διαστολή των βρόγχων (αεραγωγών)</descrip>
+<termSec>
+<term>βρογχοδιασταλτικό</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Η ινδακατερόλη ανήκει σε μία ομάδα φαρμάκων που ονομάζονται βρογχοδιασταλτικά.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T013">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: EL 1513058/ EN based on the official term 'dyspnoea'' and 'shortness of breath' in 1513058</note>
+<note>iate_id: 1513058</note>
+<note>iate_reliability: EN/EL 3</note>
+<note>source_doc: Bemrist PL, s.1</note>
+<note>register: mixed</note>
+<note>status: needs expert check</note>
+<note>1513058 for EL 'δύσπνοια΄ ; register: EN uses an everyday word, EL a medical term (more formal)</note>
+<langSec xml:lang="en">
+<descrip type="definition">difficult or laboured respiration</descrip>
+<termSec>
+<term>breathlessness</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Do not use this medicine to relieve a sudden attack of breathlessness or wheezing.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">υποκειμενικό αίσθημα δυσχέρειας στην αναπνοή</descrip>
+<termSec>
+<term>δύσπνοια</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Μην χρησιμοποιείτε αυτό το φάρμακο για την ανακούφιση ξαφνικού συμβάντος δύσπνοιας ή συριγμού.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T014">
+<descrip type="subjectField">packaging</descrip>
+<note>definition_source: EN IATE 1733146/ EL based on EN 1733146 for 'πλακίδιο με κυψελίδες' which is the preferred term</note>
+<note>iate_id: 1733146</note>
+<note>iate_reliability: EN/ EL 3</note>
+<note>source_doc: Bemrist PL, s.3</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>MISMATCH / IATE 35266 EN 'blister' and EL ΄Κυψέλη΄ respectively for a different domain (trade and marketing)/pharmaceutical industry IATE 1733146 EN 'blister' , EL 'πλακίδιο με κυψελίδες' /in the specific leaflet for the EL term the word used belongs to a different domain/ related: backing / προστατευτική επένδυση (of the blister), same sentence</note>
+<langSec xml:lang="en">
+<descrip type="definition">card for unit-dose medication packaging which has semi-rigid thermoformed or cold-formed cavities that are filled with pills (i.e. tablets, capsules, etc.) and secured by a strong, heat-sealable backing material</descrip>
+<termSec>
+<term>blister</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Peel the backing away from the blister to open it, do not push the capsule through the foil.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">πλακίδιο συσκευασίας μοναδιαίων δόσεων φαρμάκου σε μορφή χαπιών τοποθετημένων σε ημίσκληρες κυψελίδες (blisters) οι οποίες καλύπτονται με θερμοκολλούμενη επίστρωση υλικού υποστήριξης ώστε το χάπι που περιέχει κάθε κυψελίδα να προστατεύεται έως ότου αφαιρεθεί για να χρησιμοποιηθεί</descrip>
+<termSec>
+<term>κυψέλη</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Αποκολλήστε την προστατευτική επένδυση της κυψέλης για να την ανοίξετε, μην σπρώχνετε το καψάκιο μέσω του φύλλου αλουμινίου.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T015">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: based on MeSH definition of 'urticaria'</note>
+<note>iate_id: none</note>
+<note>source_doc: Bemrist PL, s.4</note>
+<note>register: mixed</note>
+<note>status: needs expert check</note>
+<note>register: EN uses an everyday word, EL a medical term (more formal); EN 'hives' is plural-only and names the condition (urticaria), EL πομφός is a single wheal, possibly not the same concept (case study) / no entries on IATE site ; list items are quoted with their lead-in; second occurrence in M-M-RvaxPro PL, s.4: 'Hives' / 'Κνησμός' - MISMATCH (case study): κνησμός means itching; hives (urticaria) would be κνίδωση</note>
+<langSec xml:lang="en">
+<descrip type="definition">vascular reaction of the skin characterized by erythema and wheal formation due to localized increase of vascular permeability</descrip>
+<termSec>
+<term>hives</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Stop using Bemrist Breezhaler and get medical help immediately if you have any of the following: Common: may affect up to 1 in every 10 people - difficulty breathing or swallowing, swelling of the tongue, lips, or face, skin rash, itching and hives (signs of allergic reaction).</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">αγγειακή αντίδραση του δέρματος που χαρακτηρίζεται από ερύθημα και σχηματισμό πομφών λόγω εντοπισμένης αύξησης της αγγειακής διαπερατότητας</descrip>
+<termSec>
+<term>πομφός</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Σταματήστε να χρησιμοποιείτε Bemrist Breezhaler και λάβετε αμέσως ιατρική βοήθεια αν έχετε οποιοδήποτε από τα ακόλουθα: Συχνές: μπορεί να επηρεάσουν μέχρι 1 στους 10 ανθρώπους - δυσκολία στην αναπνοή ή στην κατάποση, διόγκωση στη γλώσσα, τα χείλη ή το πρόσωπο, δερματικό εξάνθημα, φαγούρα και πομφούς (σημεία αλλεργικής αντίδρασης).</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T016">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN IATE 1685315 / EL own, based on EN 1685315</note>
+<note>iate_id: 1685315</note>
+<note>iate_reliability: EN/ EL 3</note>
+<note>source_doc: Bemrist PL, s.4</note>
+<note>register: technical</note>
+<note>status: approved</note>
+<note>list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">the inflammation of the nasopharynx</descrip>
+<termSec>
+<term>nasopharyngitis</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Very common: may affect more than 1 in 10 people - sore throat, runny nose (nasopharyngitis)</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">φλεγμονή του ρινοφάρυγγα</descrip>
+<termSec>
+<term>ρινοφαρυγγίτιδα</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Πολύ συχνές: μπορεί να επηρεάσουν περισσότερους από 1 στους 10 ανθρώπους - πονόλαιμος, καταρροή (ρινοφαρυγγίτιδα)</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T017">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: own, based on IATE 1502879 for 'attack' and 'παρόξυνση΄</note>
+<note>iate_id: none</note>
+<note>source_doc: Bemrist PL, s.4</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>related: IATE 1502879 (attack / παροξυσμός, προσβολή, κρίση; medical science; broader; reliability EN/EL 3 for 'attack' and 'παρόξυνση΄ ; case study : EN 'attack of asthma' and 'συμβάν άσθματος' in Bemrist PL, s.1 : 'κρίση άσθματος' instead? / list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">sudden or progressive worsening of asthma related symptoms</descrip>
+<termSec>
+<term>asthma exacerbation</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Very common: may affect more than 1 in 10 people - sudden difficulty breathing and feeling of tightness in chest with wheezing or coughing (asthma exacerbation)</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">ξαφνική ή σταδιακή επιδείνωση των συμπτωμάτων του άσθματος</descrip>
+<termSec>
+<term>παρόξυνση άσθματος</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Πολύ συχνές: μπορεί να επηρεάσουν περισσότερους από 1 στους 10 ανθρώπους - ξαφνική δυσκολία στην αναπνοή και αίσθηση σφιξίματος στο στήθος με συριγμό ή βήχα (παρόξυνση άσθματος)</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T018">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: IATE 261853 / for EL own, based on 261853</note>
+<note>iate_id: 261853</note>
+<note>iate_reliability: EN/EL 3</note>
+<note>source_doc: Bemrist PL, s.4</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>case study (sign vs symptom): pain is a symptom (felt by the patient), not a sign (observed by a doctor), yet EN says 'signs' and EL follows with 'σημεία'. In the specific case, 'symptom' and 'σύμπτωμα' should be used in EN and EL respectively. Elsewhere in the leaflet: 'signs of illness' / 'συμπτώματα της ασθένειας' (opening text); '(signs the medicine is unexpectedly tightening the airways…)' / '(υποδηλώνουν ότι…)' (section 2); 'signs of allergic reaction' / 'σημεία αλλεργικής αντίδρασης' and 'sign of candidiasis' / 'σημείο καντιντίασης' (section 4); word 'sign' used in the IATE definition to describe term 'sign'/ list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">sign that is evident to a doctor examining a patient</descrip>
+<termSec>
+<term>sign</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Common: may affect up to 1 in every 10 people - pain in muscles, bones or joints (signs of musculoskeletal pain)</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">κλινικά αδιαφιλονίκητο εύρημα του γιατρού</descrip>
+<termSec>
+<term>σημείο</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Συχνές: μπορεί να επηρεάσουν μέχρι 1 στους 10 ανθρώπους - πόνος στους μυς, τα οστά ή τις αρθρώσεις (σημεία μυοσκελετικού πόνου)</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T019">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: NIH NLM MeSH 'Pruritus' D011537</note>
+<note>iate_id: none</note>
+<note>source_doc: Bemrist PL, s.4</note>
+<note>register: mixed</note>
+<note>status: needs expert check</note>
+<note>register: EN uses an everyday word, EL a medical term (more formal); EL variants for 'itching' in the same leaflet: φαγούρα (everyday word, section 4: 'itching and hives' / 'φαγούρα και πομφούς') and κνησμό (section 2: 'itching and hives' / 'κνησμό και πομφούς'); list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">urge to rub or scratch the skin to obtain relief</descrip>
+<termSec>
+<term>itching</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Uncommon: may affect up to 1 in every 100 people - skin itching</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">επιθυμία για τρίψιμο ή ξύσιμο του δέρματος ώστε να έρθει ανακούφιση</descrip>
+<termSec>
+<term>κνησμός</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Όχι συχνές: μπορεί να επηρεάσουν μέχρι 1 στους 100 ανθρώπους. - κνησμός στο δέρμα</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T020">
+<descrip type="subjectField">pharmacology</descrip>
+<note>definition_source: IATE 3509191</note>
+<note>iate_id: 3509191</note>
+<note>iate_reliability: EN 3/ EL 4</note>
+<note>source_doc: M-M-RvaxPro PL, title</note>
+<note>register: technical</note>
+<note>status: approved</note>
+<note>part of the dose form 'suspension for injection / ενέσιμο εναιώρημα'</note>
+<langSec xml:lang="en">
+<descrip type="definition">liquid in which solid particles are dispersed</descrip>
+<termSec>
+<term>suspension</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Powder and solvent for suspension for injection</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">σκεύασμα που περιέχει στερεά σωματίδια αιωρούμενα εντός υγρού</descrip>
+<termSec>
+<term>εναιώρημα</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Κόνις και διαλύτης για ενέσιμο εναιώρημα</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T021">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: IATE 1084686</note>
+<note>iate_id: 1084686</note>
+<note>iate_reliability: EN 3/ EL 4</note>
+<note>source_doc: M-M-RvaxPro PL, s.2</note>
+<note>register: technical</note>
+<note>status: approved</note>
+<note>patient-friendly synonym given in brackets in the leaflet: fits (EN) / κρίσεις (EL); EL κρίση is broader than EN fit (any attack or crisis), so it only means convulsion in this context; EL σπασμός is also used for 'spasm' elsewhere (Bemrist PL, s.4: 'muscle spasm' / 'μυϊκός σπασμός'); list items are quoted with their lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">medical condition where body muscles contract and relax rapidly and repeatedly, resulting in an uncontrolled shaking of the body</descrip>
+<termSec>
+<term>convulsion</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Talk to the doctor or pharmacist before the person to be vaccinated receives M-M-RvaxPro if he/she has experienced any of the following: - a history or family history of allergies or of convulsions (fits)</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">ισχυρή και ακούσια σύσπαση των μυών του σώματος</descrip>
+<termSec>
+<term>σπασμός</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Απευθυνθείτε στον γιατρό ή τον φαρμακοποιό πριν το άτομο που πρόκειται να εμβολιαστεί πάρει το M-M-RvaxPro εάν σε αυτό έχει συμβεί κάτι από τα παρακάτω: - ένα ιστορικό ή οικογενειακό ιστορικό αλλεργιών ή σπασμών (κρίσεις)</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T022">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: own, based on MeSH D010292, Merriam-Webster dictionary</note>
+<note>iate_id: none</note>
+<note>source_doc: M-M-RvaxPro PL, s.4</note>
+<note>register: everyday</note>
+<note>status: rejected</note>
+<note>MISMATCH (case study): φαγούρα means itching (everyday word); tingling would be 'μυρμήγκιασμα'. Same error in the next item: 'weakness, tingling, or numbness' / 'αδυναμία, φαγούρα ή μούδιασμα'.;Table rows are quoted with their frequency cell as lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">abnormal prickling sensation in the skin</descrip>
+<termSec>
+<term>tingling</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Not known (Frequency cannot be estimated from the available data)* - An illness consisting of muscle weakness, abnormal sensations, tingling in the arms, legs, and upper body (Guillain-Barré syndrome).</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">μη φυσιολογικό αίσθημα τσιμπήματος στο δέρμα</descrip>
+<termSec>
+<term>φαγούρα</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Μη γνωστής συχνότητας (δεν μπορούν να εκτιμηθούν με βάση τα διαθέσιμα δεδομένα)* - Μια ασθένεια που περιλαμβάνει μυϊκή αδυναμία, μη φυσιολογικές αισθήσεις, φαγούρα στα χέρια, πόδια και το άνω μέρος του σώματος (Σύνδρομο Guillain-Barré).</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T023">
+<descrip type="subjectField">disease</descrip>
+<note>definition_source: EN own, based on MeSH D009900/ EL own, based on D009900</note>
+<note>iate_id: none</note>
+<note>source_doc: M-M-RvaxPro PL, s.4</note>
+<note>register: mixed</note>
+<note>status: needs expert check</note>
+<note>register: EN uses a lay phrase ('eye nerve'), EL the technical term οπτικό νεύρο (optic nerve), more formal; same item also has the tingling / φαγούρα mismatch (see tingling). Table rows are quoted with their frequency cell as lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">impairment of the cranial nerve which conveys visual information from the retina to the brain</descrip>
+<termSec>
+<term>eye nerve disturbance</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<descrip type="context">Not known (Frequency cannot be estimated from the available data)* - Headache; fainting; nerve disorders which can cause weakness, tingling, or numbness; eye nerve disturbances.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">βλάβη του κρανιακού νεύρου που μεταφέρει οπτικές πληροφορίες από τον αμφιβληστροειδή στον εγκέφαλο</descrip>
+<termSec>
+<term>διαταραχή του οπτικού νεύρου</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">feminine</termNote>
+<descrip type="context">Μη γνωστής συχνότητας (δεν μπορούν να εκτιμηθούν με βάση τα διαθέσιμα δεδομένα)* - Πονοκέφαλο, λιποθυμία, διαταραχές των νεύρων που μπορεί να προκαλέσουν αδυναμία, φαγούρα ή μούδιασμα, διαταραχές του οπτικού νεύρου.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T024">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: own, based on Merriam-Webster dictionary</note>
+<note>iate_id: none</note>
+<note>source_doc: M-M-RvaxPro PL, s.4</note>
+<note>register: mixed</note>
+<note>status: rejected</note>
+<note>MISMATCH (case study): 'κνησμός' means 'itching'; 'stinging' would be 'επίπονο τσούξιμο'. In the same item 'hives' is rendered εξανθήματα (rashes). 'Hives' were described as 'πομφοί' in another example.;   Table rows are quoted with their frequency cell as lead-in    / actual definition of 'κνησμός'  MeSH D011537</note>
+<langSec xml:lang="en">
+<descrip type="definition">painful prickling sensation in the skin</descrip>
+<termSec>
+<term>stinging</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Not known (Frequency cannot be estimated from the available data)* - Burning and/or stinging of short duration at the injection site; blisters and/or hives at the injection site.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">επίπονο αίσθημα τσιμπήματος και τσουξίματος στο δέρμα</descrip>
+<termSec>
+<term>κνησμός</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="grammaticalGender">masculine</termNote>
+<descrip type="context">Μη γνωστής συχνότητας (δεν μπορούν να εκτιμηθούν με βάση τα διαθέσιμα δεδομένα)* - Αίσθημα καύσου και/ή κνησμός μικρής διάρκειας στη θέση της ένεσης, φουσκάλες και/ή εξανθήματα στη θέση της ένεσης.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+<conceptEntry id="T025">
+<descrip type="subjectField">symptom</descrip>
+<note>definition_source: M-M-RvaxPro PL, s.4</note>
+<note>iate_id: none</note>
+<note>source_doc: M-M-RvaxPro PL, s.4</note>
+<note>register: technical</note>
+<note>status: needs expert check</note>
+<note>technical term given in brackets after a lay description in both languages. Table rows are quoted with their frequency cell as lead-in</note>
+<langSec xml:lang="en">
+<descrip type="definition">state of feeling unwell</descrip>
+<termSec>
+<term>malaise</term>
+<termNote type="partOfSpeech">noun</termNote>
+<descrip type="context">Not known (Frequency cannot be estimated from the available data)* - Generally feeling unwell (malaise); swelling; soreness.</descrip>
+</termSec>
+</langSec>
+<langSec xml:lang="el">
+<descrip type="definition">αίσθημα αδιαθεσίας</descrip>
+<termSec>
+<term>αίσθημα κακουχίας</term>
+<termNote type="partOfSpeech">noun</termNote>
+<termNote type="termType">phrase</termNote>
+<termNote type="grammaticalGender">neuter</termNote>
+<descrip type="context">Μη γνωστής συχνότητας (δεν μπορούν να εκτιμηθούν με βάση τα διαθέσιμα δεδομένα)* - Γενικό αίσθημα αδιαθεσίας (αίσθημα κακουχίας), οίδημα, ερεθισμός.</descrip>
+</termSec>
+</langSec>
+</conceptEntry>
+</body></text></tbx>
