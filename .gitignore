@@ -1,0 +1,11 @@
+# Logs and Trados/MultiTerm temp files
+*.log
+*.xdt
+
+# Office temp/lock files
+~$*
+*.tmp
+
+# Windows
+Thumbs.db
+desktop.ini
