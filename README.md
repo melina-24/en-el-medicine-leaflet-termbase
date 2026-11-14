@@ -2,39 +2,40 @@
 
 A bilingual English–Greek termbase built from EU package leaflets for centrally authorised medicines. Each entry has a definition written to ISO 1087 / ISO 704 principles, grounding in IATE (the EU's terminology database) with its reliability score, and the real sentence the term appears in.
 
-> **Status:** work in progress. [TODO: change to "Completed November 2026" when finished]
+> **Status:** completed November 2026.
 
 ## What's in this repo
 
 | File | What it is |
 |---|---|
-| `termbase/termbase.csv` | The master glossary ([TODO: number] entries) |
-| `termbase/termbase.tbx` | The same termbase exported from Trados MultiTerm (TBX, the standard exchange format) |
-| `sources/sources.md` | The leaflets used: product, EMA link, date accessed |
-| `review/ai-suggestions-review.md` | A terminology review of machine-translation and LLM output, checked against the termbase |
-| `review/case-studies.md` | [TODO: number] difficult terms explained in depth |
-| `scripts/check_termbase.py` | A small script that checks the termbase for missing fields, duplicates and missing IATE IDs |
-| `METHODOLOGY.md` | How the termbase was built: sources, entry fields, definition rules, IATE reliability, status workflow |
+| `termbase/termbase.xlsx` | The master termbase (25 entries) |
+| `termbase/termbase.csv` | The same termbase exported as CSV (UTF-8) |
+| `termbase/termbase.tbx` | The termbase in TBX, generated from the CSV with a script and validated against TBX-Basic (ISO 30042) |
+| `termbase/termbase.ttb` | A Trados 2026 termbase made with Glossary Converter |
+| `sources/sources.md` | The leaflets used (product, EMA link, date accessed) and all reference sources |
+| `review/ai-suggestions-review.md` | A terminology review of DeepL and ChatGPT output, checked against the termbase |
+| `review/raw-outputs.md` | The unedited DeepL and ChatGPT outputs |
+| `review/case-studies.md` | 4 difficult cases explained in depth |
+| `METHODOLOGY.md` | How the termbase was built: sources, entry fields, definition rules, IATE grounding, statuses |
 
 ## Sources
 
-All source texts are public product information published by the European Medicines Agency (EMA), in the English and Greek versions of the same leaflet. Terms were checked against [IATE](https://iate.europa.eu).
-
-[TODO: list the 2–3 medicines here, or point to `sources/sources.md`]
-
-[TODO: quote EMA's reuse/copyright notice exactly as it appears on the EMA website, with a link to it]
+All source texts are public product information published by the European Medicines Agency (EMA), in the English and Greek versions of the same leaflet: Eliquis 2.5 mg, Bemrist Breezhaler and M-M-RvaxPro. Links, access dates and EMA's reuse notice are in [sources/sources.md](sources/sources.md). Terms were checked against [IATE](https://iate.europa.eu).
 
 ## Sample entries
 
-[TODO: 3–5 example rows from the termbase, e.g.]
-
-| English | Greek | Definition (EN) | IATE | Status |
+| English | Greek (leaflet) | Definition (EN) | IATE | Status |
 |---|---|---|---|---|
-| | | | | |
+| active substance | δραστική ουσία | substance responsible for the pharmacological activity of a medicinal product | 35093 | approved |
+| sign | σημείο | sign that is evident to a doctor examining a patient | 261853 | needs expert check |
+| ulcer of the stomach | πεπτικό έλκος | break in the lining of the stomach | 1547325 | rejected |
+| tingling | φαγούρα | abnormal prickling sensation in the skin | none | rejected |
+
+The Greek column shows the term the leaflet uses, errors included. For rejected entries, the recommended term is in the termbase note (e.g. "γαστρικό έλκος", "μυρμήγκιασμα").
 
 ## How the entries were built
 
-[TODO: 3–4 sentences in your own words: how terms were selected, how definitions were written, how IATE was used, what the statuses mean. Details go in `METHODOLOGY.md`.]
+Terms were selected from the English and Greek versions of the same leaflets. Definitions were written to ISO 1087 / ISO 704 and grounded in IATE where an entry exists; otherwise they were based on other cited public sources (NLM MeSH, PubMed Central, Merriam-Webster). Each entry has one status: approved, needs expert check or rejected. Details are in [METHODOLOGY.md](METHODOLOGY.md).
 
 ## Disclaimer
 
